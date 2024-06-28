@@ -555,6 +555,11 @@ ul.bulletList.bulletBlue li::before{background-image: url("data:image/svg+xml,%3
 
 .powerGPS_Slide .card{--bs-card-border-color:#E9F3F9;}
 
+._ps.scTabs .tab-wrap .card{--bs-card-bg: transparent; --bs-card-border-width: .125rem; --bs-card-border-color:#00000008;}
+
+ul.bulletCircle li{position: relative; font-size: 18px; font-weight: 500; margin: 10px 0px; padding-left: 30px;}
+ul.bulletCircle li::before{content: ''; position: absolute; top: 12px; left: 0px; width: 5px; height: 5px; background-color: var(--tPrimary); border-radius: 50%;}
+
 /* Code End */
 
 
